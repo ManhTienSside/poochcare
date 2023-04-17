@@ -20,7 +20,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <!-- fontgoogle -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,17 +31,111 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="head"></header>
+    <header>
+      <nav class="container navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Pooch Care</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarPoochCare"
+          aria-controls="navbarPoochCare"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarPoochCare">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"> Pages </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <ul class="search__item">
+            <li class="nav-item">
+              <a class="search" href="#">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="darknight">
+            <a href="#">
+              <i class="fa-sharp fa-regular fa-sun-bright"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
     <section class="carosel"></section>
-    <section class="aboutus"></section>
+    <section class="aboutus">
+      <div class="container pd__section">
+        <div class="aboutus__tittle">
+          <h6>ABOUT US</h6>
+          <h3>
+            We Love Your Pets Like They Are Our<br />
+            Own
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales
+            quis.
+          </p>
+          <a href="#">read more</a>
+        </div>
+      </div>
+    </section>
     <section class="features"></section>
-    <section class="chooseus"></section>
-    <section class="counter"></section>
+    <section class="services">
+      <div class="poContain pd__section">
+        <div class="services__content">
+          <div class="services__left">
+            <img class="img-fluid" src="./images/ab.jpg" alt="services" />
+          </div>
+          <div class="services__right">
+            <h6>WHY CHOOSE US</h6>
+            <h3>What We Offer For You</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud.Lorem ipsum dolor sit amet,
+              consectetur adipisicingelit.
+            </p>
+            <ul>
+              <li><span class="fa fa-check"></span>Certified Groomer</li>
+              <li><span class="fa fa-check"></span>10 Years of Experience</li>
+              <li><span class="fa fa-check"></span>Pet Lover</li>
+              <li><span class="fa fa-check"></span>Customer Supports</li>
+              <li><span class="fa fa-check"></span>Veterinary Help</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="number"></section>
     <section class="ourplans"></section>
     <section class="betterpet"></section>
     <section class="testimonials"></section>
-    <section class="stay updated"></section>
-    <footer class="footer"></footer>
+    <section class="update"></section>
+    <footer></footer>
     <!-- boostrap vesion 4.6 -->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

@@ -1,0 +1,43 @@
+header {
+    background-color: #151515;
+    height: 90px;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.05);
+    text-align: center;
+    line-height: 24px;
+
+}
+
+header .navbar-brand {
+    display: block;
+    font-size: 2.125rem;
+    color: #189a46;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+#navbarPoochCare .nav-item {
+    padding: 0 12px;
+}
+
+#navbarPoochCare .nav-item .nav-link {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 14px 0;
+    line-height: 28.8px;
+}
+
+
+
+#navbarPoochCare .nav-item .search {
+    font-size: 1rem;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+    color: #189a46;
+}
