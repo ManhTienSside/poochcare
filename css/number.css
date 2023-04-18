@@ -2,7 +2,6 @@
     background-color: #189a46;
     color: #ffffff;
     text-align: center;
-    padding: 3rem;
 }
 
 .number .poContain{
@@ -34,9 +33,8 @@
 .number .number__item p:last-of-type {
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.25rem;
-    line-height: 1.5625rem;
+    line-height: 1.25em;
     text-transform: capitalize;
     margin-top: 10px;
-    opacity: 0.8;
     font-weight: 400;
 }

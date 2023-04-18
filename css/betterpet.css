@@ -1,4 +1,4 @@
-.title p {
+.betterpet .title p {
     font-size: 1.125rem;
     font-weight: 400;
     color: #f53626;
@@ -7,14 +7,14 @@
     letter-spacing: 1px;
 }
 
-.title p:last-of-type {
+.betterpet .title p:last-of-type {
     font-size: 1.2em;
     line-height: 28px;
     color: #696969;
     text-transform: none;
 }
 
-.title h2 {
+.betterpet .title h2 {
     font-size: 2.5rem;
     line-height: 1.2em;
     font-weight: 600;
