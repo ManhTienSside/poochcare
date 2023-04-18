@@ -1,0 +1,42 @@
+.number {
+    background-color: #189a46;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem;
+}
+
+.number .poContain{
+    padding: 0 15px;
+}
+
+.number .row{
+    padding-bottom: 1rem;
+}
+
+.number .counter {
+    font-size: 60px;
+    color: white;
+}
+
+.number .number__item {
+    width: 100%;
+}
+
+.number .number__item p {
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.number .number__item p:last-of-type {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 400;
+}
