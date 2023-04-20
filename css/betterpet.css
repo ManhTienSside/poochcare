@@ -1,0 +1,121 @@
+.betterpet .title p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #f53626;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+.betterpet .title p:last-of-type {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+    text-transform: none;
+}
+
+.betterpet .title h2 {
+    font-size: 2.5rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.betterpet .mei-section {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.betterpet .title p,
+.betterpet .title h2 {
+    margin-bottom: 0;
+}
+
+.betterpet .title p:last-of-type {
+    margin-top: 1rem;
+    font-size: 19px;
+    word-spacing: 0;
+}
+
+.betterpet__video {
+    position: relative;
+}
+
+.betterpet__video a {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-10%);
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    line-height: 50px;
+    align-items: center;
+    color: #189a46;
+}
+
+.betterpet__video img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#small-dialog {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+}
+
+div#small-dialog iframe {
+    width: 100%;
+    height: 420px;
+    display: block;
+    border-radius: 10px;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+}
+
+.mfp-close,
+.mfp-close:active {
+    top: -40px;
+}
+
+.my-mfp-zoom-in .zoom-anim-dialog {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);
+}
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* animate out */
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+/* Dark overlay, start state */
+.my-mfp-zoom-in.mfp-bg {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: 0.95;
+}
+
+/* animate out */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+    opacity: 0;
+}
