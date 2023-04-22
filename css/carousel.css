@@ -2,9 +2,14 @@
     position: relative;
 }
 
+#PcCarousel .carousel-item:nth-of-type(2) .carousel-caption, #PcCarousel .carousel-item:last-of-type .carousel-caption{
+    position: absolute;   
+    transform: translate(25%,-50%); 
+}
+
 #PcCarousel .carousel-item .carousel__banner{
     background-image: url(../images/banner1.jpg);
-    background-size: cover;
+    background-size: cover;   
     min-height: calc(100vh - 90px);
     width: 100%;
 }
@@ -79,12 +84,13 @@
     text-align: left;
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 45%;
     bottom: 0;
     left: 0;
     z-index: 10;
     padding-top: 0;
     padding-bottom: 0;
+    padding-right: 30%; 
     color: #fff;
     transform: translate(0,-50%);
 }
@@ -95,6 +101,7 @@
     font-weight: 700;
     text-transform: capitalize;
     color: #fff;
+    margin-bottom: 0;
 }
 
 #PcCarousel .carousel-caption p {

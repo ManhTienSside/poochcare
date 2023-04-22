@@ -1,0 +1,96 @@
+.features {
+    background-color: #222;
+
+}
+
+.features .container {
+    padding-top: 48px;
+}
+
+.features .row {
+    margin: 0 -15px;
+}
+
+.features .row .features__grid {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.features .features__bg {
+    padding: 40px 30px;
+    background-color: #151515;
+    border-radius: 10px;   
+}
+
+.features .features__bg:hover{
+    background-color: #15151500;    
+}
+
+
+.features__bg i {
+    color: #189a46;
+    font-size: 30px;
+}
+
+.features .features__grid:first-of-type .features__bg i {
+    font-weight: lighter;
+}
+
+.features .features__bg a {
+    text-decoration: none;
+}
+
+.features .features__bg h4>a {
+    color: #ddd;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: block;
+    transition: all .5s;
+}
+
+.features .features__bg h4>a:hover {
+    color: #189a46;
+}
+
+.features .features__bg p {
+    color: #afafaf;
+    font-size: 1.2rem;
+    line-height: 28px;
+}
+
+.features .features__bg>a {
+    border-bottom: 2px solid #189a46;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #ddd;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.features .features__bg>a:hover{
+    color: #189a46;
+}
+
+@media screen and (min-width: 576px){
+    .features .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }    
+}
+
+@media screen and (min-width: 992px){
+    .features .col-lg-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }    
+}
+
+
+
+
+
+
