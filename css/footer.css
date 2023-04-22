@@ -1,0 +1,49 @@
+.footer__bg {
+    background-color: #000000;
+    color: #fff;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer h6 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.footer__icon ul{
+    display: flex;
+    
+
+
+}
+
+
+.backtotop {    
+    width: 48px;
+    height: 48px;
+    background: #189a46;
+    padding: 0;
+    line-height: 48px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    position: fixed;
+    bottom: 60px;
+    right: 15px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    opacity: 0;
+}
+
+.cd-top--is-visible {
+    opacity: 1;
+}

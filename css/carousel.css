@@ -1,0 +1,183 @@
+#PcCarousel .carousel-inner{
+    position: relative;
+}
+
+#PcCarousel .carousel-item:nth-of-type(2) .carousel-caption, #PcCarousel .carousel-item:last-of-type .carousel-caption{
+    position: absolute;   
+    transform: translate(25%,-50%); 
+}
+
+#PcCarousel .carousel-item .carousel__banner{
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;   
+    min-height: calc(100vh - 90px);
+    width: 100%;
+}
+
+#PcCarousel .carousel-item .carousel__banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #0c0c0c;
+    opacity: .6;
+}
+
+#PcCarousel .carousel-item:first-child .carousel__banner {
+    background-image: url(../images/banner1.jpg);
+}
+
+#PcCarousel .carousel-item:nth-of-type(2) .carousel__banner {
+    background-image: url(../images/banner2.jpg);
+}
+
+#PcCarousel .carousel-item:nth-of-type(3) .carousel__banner {
+    background-image: url(../images/banner3.jpg);
+}
+
+#PcCarousel .carousel-item:last-of-type .carousel__banner {
+    background-image: url(../images/banner1.jpg);
+}
+
+.carosel .carousel-indicators{
+    margin: 0 0 30px 0;
+}
+
+#PcCarousel .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    opacity: .9;
+    transition: opacity .6s ease;
+}
+
+#PcCarousel .carousel-indicators .active, #PcCarousel .carousel-indicators li:hover {
+    width: 30px;
+    height: 10px;
+    border-radius: 15px;
+    margin-right: 8px;
+    margin-left: 8px;
+    background-color: #03bd7f;
+}
+
+/* #PcCarousel .carousel-item:first-of-type .container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 25px;
+} */
+
+#PcCarousel .carousel-item .carousel-caption{
+    text-align: left;
+    position: absolute;
+    right: 0;
+    top: 45%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 30%; 
+    color: #fff;
+    transform: translate(0,-50%);
+}
+
+#PcCarousel .carousel-caption h5 {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#PcCarousel .carousel-caption p {
+    line-height: 30px;
+    font-weight: 400;
+    opacity: .9;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#PcCarousel .carousel-caption .btn{
+    font-size: 18px;
+    font-weight: 400;
+    color: #189a46;
+    line-height: 28px;  
+    border-radius: 10px;
+    padding: 12px 35px;
+    border: 2px solid white;
+    display: inline-block; 
+    margin-top: 48px;   
+}
+
+#PcCarousel .carousel-caption .btn:first-of-type{
+    background-color: #ffffff;
+    color: #189a46;
+   margin-right: 8px;
+}
+
+#PcCarousel .carousel-caption .btn:last-of-type{
+    background-color: transparent ;
+    color: #ffffff;
+    transition: all .5s;
+} 
+
+#PcCarousel .carousel-caption .btn:last-of-type:hover {
+    background-color: #ffffff;
+    color: #189a46;
+}
+
+/* #pcCarousel{
+    position: relative;
+} */
+
+/* #pcCarousel .carousel-indicators{
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+} */
+
+/* #pcCarousel .carousel-item{
+    position: relative;
+    margin-right: 0;   
+} */
+
+/* #pcCarousel .carousel-item img{
+    min-height: calc(100vh - 90px);
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+} */
+
+@media screen and (max-width:1199.9px) {
+    #PcCarousel .carousel-caption h5 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    #PcCarousel .carousel-caption p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 991.9px){
+    .poContain {
+        max-width: 960px;
+        margin: 0 auto;
+    }    
+}

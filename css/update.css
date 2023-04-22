@@ -1,0 +1,133 @@
+.update {
+    background-color: black;
+}
+
+.update .container {
+    max-width: 1140px;
+    padding: 24px 15px;
+    margin: 0 auto;
+}
+
+.update .row {
+    margin: 24px auto;
+    align-items: center;
+    padding: 0;
+    max-width: 680px;
+}
+
+.update .title {
+    text-align: center;
+}
+
+.update .title h2 {
+    font-size: 2.5rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #dddddd;
+}
+
+.update .title p {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #afafaf;
+    text-transform: none;
+    margin: 16px 0;
+}
+
+/* .update .row .col-4 .btn{
+    font-size: 18px;
+    font-weight: 400;
+    color: #189a46;
+    line-height: 28px;  
+    border-radius: 10px;
+    padding: 12px 35px;
+    border: 2px solid white;
+    display: inline-block; 
+    margin-top: 48px;   
+}
+
+.update .row .col-4 .btn{
+    background-color: #ffffff;
+    color: #189a46;
+} */
+
+.update .row .col-md-12 {
+    margin-bottom: 48px;
+}
+
+.update .row .btn {
+    border-radius: 10px;
+    height: 60px;
+    padding-top: 8px;    
+}
+
+.update .row .form-control {
+    font-size: 16px;
+    height: 60px;
+    background: #fff;
+    padding-left: 20px;
+    text-align: left;
+    width: 100%;
+    margin-left: 0;
+}
+
+.update .row .btn-primary {
+    color: #fff;
+    background-color: #189A46;
+    border-color: #189A46;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    width: 195px;  
+    margin-right: 0;
+
+}
+
+.update .row .btn-primary:hover {
+    background-color: #116E32;
+    border-color: #116E32;
+}
+
+@media screen and (max-width: 991.9px) {
+    .update .container {
+        max-width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .update .row .col .btn-primary{
+        width: 100%;              
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .update .container {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .update .row .col .btn-primary{
+        width: 30%;              
+    }
+}
+
+@media screen and (max-width: 666.9px) {    
+    .update .row .col .btn-primary{
+        flex-basis: 100%;
+        display: block;
+        width: 100%;
+        margin-top: 16px;       
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .update .container {
+        max-width: 540px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
