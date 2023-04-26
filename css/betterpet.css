@@ -1,4 +1,13 @@
-.betterpet .title p {
+.betterpet{
+    background-color: #151515;
+    padding: 48px 0;
+}
+
+.betterpet .container{
+    padding: 48px 15px;
+}
+
+.betterpet .title h6 {
     font-size: 1.125rem;
     font-weight: 400;
     color: #f53626;
@@ -7,32 +16,33 @@
     letter-spacing: 1px;
 }
 
-.betterpet .title p:last-of-type {
-    font-size: 1.2em;
-    line-height: 28px;
-    color: #696969;
-    text-transform: none;
-}
-
-.betterpet .title h2 {
+.betterpet .title h3 {
     font-size: 2.5rem;
     line-height: 1.2em;
     font-weight: 600;
     text-transform: capitalize;
+    color: #ddd;
 }
 
-.betterpet .mei-section {
+.betterpet .title p {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #afafaf;
+    text-transform: none;
+}
+
+.betterpet .betterpet__content {
     max-width: 950px;
     margin: 0 auto;
     text-align: center;
 }
 
-.betterpet .title p,
-.betterpet .title h2 {
+.betterpet .title h6,
+.betterpet .title h3{
     margin-bottom: 0;
 }
 
-.betterpet .title p:last-of-type {
+.betterpet .title p {
     margin-top: 1rem;
     font-size: 19px;
     word-spacing: 0;
@@ -40,6 +50,7 @@
 
 .betterpet__video {
     position: relative;
+    margin-top: 48px;
 }
 
 .betterpet__video a {
@@ -81,8 +92,7 @@ div#small-dialog iframe {
     color: #fff;
 }
 
-.mfp-close,
-.mfp-close:active {
+.mfp-close, .mfp-close:active {
     top: -40px;
 }
 

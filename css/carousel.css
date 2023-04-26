@@ -1,5 +1,6 @@
 #PcCarousel .carousel-inner{
     position: relative;
+    z-index: 2;
 }
 
 #PcCarousel .carousel-item:nth-of-type(2) .carousel-caption, #PcCarousel .carousel-item:last-of-type .carousel-caption{
@@ -21,7 +22,7 @@
     min-height: 100%;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 3;
     background-color: #0c0c0c;
     opacity: .6;
 }
@@ -47,18 +48,13 @@
 }
 
 #PcCarousel .carousel-indicators li {
-    box-sizing: content-box;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     margin-right: 10px;
-    margin-left: 10px;
-    text-indent: -999px;
+    margin-left: 10px;  
     cursor: pointer;
-    background-color: #fff;
-    background-clip: padding-box;
+    background-color: #ffffff;  
     border-top: 0px solid transparent;
     border-bottom: 0px solid transparent;
     opacity: .9;
@@ -74,12 +70,6 @@
     background-color: #03bd7f;
 }
 
-/* #PcCarousel .carousel-item:first-of-type .container{
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 0 25px;
-} */
-
 #PcCarousel .carousel-item .carousel-caption{
     text-align: left;
     position: absolute;
@@ -91,7 +81,7 @@
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 30%; 
-    color: #fff;
+    color: #ffffff;
     transform: translate(0,-50%);
 }
 
@@ -100,7 +90,7 @@
     line-height: 76px;
     font-weight: 700;
     text-transform: capitalize;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 0;
 }
 
@@ -109,7 +99,7 @@
     font-weight: 400;
     opacity: .9;
     text-transform: capitalize;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 0;
 }
 
@@ -142,34 +132,11 @@
     color: #189a46;
 }
 
-/* #pcCarousel{
-    position: relative;
-} */
-
-/* #pcCarousel .carousel-indicators{
-    margin: 0;
-    position: absolute;
-    bottom: 30px;
-} */
-
-/* #pcCarousel .carousel-item{
-    position: relative;
-    margin-right: 0;   
-} */
-
-/* #pcCarousel .carousel-item img{
-    min-height: calc(100vh - 90px);
-    object-fit: cover;
-    overflow: hidden;
-    width: 100%;
-} */
-
 @media screen and (max-width:1199.9px) {
     #PcCarousel .carousel-caption h5 {
         font-size: 52px;
         line-height: 62px;
     }
-
     #PcCarousel .carousel-caption p {
         font-size: 15px;
     }
