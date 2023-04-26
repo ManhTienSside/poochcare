@@ -19,6 +19,10 @@
     color: #dddddd;
 
 }
+.testimonials__content {
+    padding-bottom: 108px;
+    margin-bottom: 24px;
+}
 .testimonials__item {
     background-color: #151515;
     padding: 40px 30px;
@@ -79,18 +83,15 @@ color: #777;
 }
 .slick-dots {
     position: absolute;
-    bottom: 50px;
+    bottom: 115px;
     left: 50%;
     transform: translate(-50%, 100px);
     display: flex !important;
     align-items: center;
     justify-content: center;
-    gap: 0 5px;
+    gap: 0 20px;
+    
 }
-.slick-dots li {
-
-}
-
 .slick-dots li button{
     width: 10px;
     height: 10px;
@@ -111,4 +112,10 @@ color: #777;
     height: 10px;
     background-color: #189a46;
     border-radius: 15px;
+}
+.slick-dots li button:before {
+    color: transparent;
+}
+.slick-dots li.slick-active button:before {
+    color: transparent;
 }

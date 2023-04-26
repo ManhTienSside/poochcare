@@ -98,3 +98,25 @@
 .light .item__bottom--text h3 {
     color:#000c04;
 }
+/* betterpet */
+.light .betterpet{
+    background-color: #ffffff;
+}
+.light .betterpet .title h3{
+    color:#000c04;
+}
+.light .betterpet .title p {
+    color: #696969;
+}
+
+.light .update {
+    background-color: #ffffff;
+}
+.light .update .title h2 {
+    color:#000c04;
+}
+.light .update .title p {
+    color: #696969;
+}
+.light .update .row .btn:focus{
+}
