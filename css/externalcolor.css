@@ -1,0 +1,100 @@
+/* head */
+.light header {
+    background-color:#ffffff;
+}
+.light .nav-item .nav-link {
+    color: #000c04;
+}
+.light #poNavbar .nav-item .nav-search{ 
+    background-color:rgba(147, 107, 232, 0.05);
+}
+/* aboutus */
+.light .aboutus {
+    background-color:#ffffff;
+}
+.light .aboutus__tittle h3 {
+    color: #000c04;
+}
+.light .aboutus__tittle p {
+    color: #696969;
+}
+.light  .aboutus__tittle a {
+    color: #000c04;
+} 
+
+.light .aboutus__tittle a:hover {
+    color: #189a46;
+}
+/* features */
+.light .features {
+    background-color:rgba(147, 107, 232, 0.05);
+}
+.light .features .features__bg {
+    background-color: #ffffff;
+}
+.light .features .features__bg h4>a {
+    color: #000c04;
+}
+
+.light .features .features__bg h4>a:hover {
+    color: #189a46;
+}
+.light .features .features__bg {
+    color: #696969;
+}
+.light .features .features__bg>a {
+    color: #000c04;
+}
+.light .features .features__bg>a:hover{
+    color: #189a46;
+}
+/* aboutus */
+.light .services {
+    background-color:#ffffff;
+}
+.light .services__right h3 {
+    color: #000c04;
+}
+.light .services__right p {
+    color: #696969;
+}
+.light .services__right li {
+    color:#000c04;
+}
+.light .services__right span {
+    background-color:rgba(147, 107, 232, 0.05);
+}
+/* ourplans */
+.light .ourplans {
+    background-color:rgba(147, 107, 232, 0.05);
+}
+.light .ourplans h3 {
+    color:#000c04;
+}
+.light .ourplans .ourplans__item .ourplans__bg{
+    background-color:#ffffff;
+}
+.light  .ourplans .ourplans__item .ourplans__header h6{ 
+    color:#000c04;
+}
+.light  .ourplans .ourplans__item:nth-of-type(2) .ourplans__header h6{ 
+    color: #ddd;
+}
+.light  .ourplans__footer ul li{
+    color: #696969;
+}
+.light  .testimonials {
+    background-color:rgba(147, 107, 232, 0.05);
+}
+.light .testimonials__title h3{
+    color:#000c04;
+}
+.light .testimonials__item {
+    background-color:#ffffff;
+}
+.light  .item__bottom--image {
+    background-color:#ffffff;
+}
+.light .item__bottom--text h3 {
+    color:#000c04;
+}
