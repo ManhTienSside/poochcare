@@ -1,6 +1,6 @@
 .update {
-    background-color: black;
-    /* background-color: white; */
+    /* background-color: black; */
+    background-color: white;
     padding: 3rem 0;
 }
 
@@ -34,8 +34,8 @@
     line-height: 1.2em;
     font-weight: 600;
     text-transform: capitalize;
-    color: #dddddd;
-    /* color: #000000; */
+    /* color: #dddddd; */
+    color: #000000;
     margin-bottom: 0;
 }
 
@@ -67,13 +67,13 @@
     background: #ffffff;
     text-align: left;
     padding: 0px 20px;
-    /* border: 1px solid rgba(115, 115, 115, 0.366); */
+    border: 1px solid #ced4da;
 }
 
 .update__form .update__item button {
     width: 27%;
     background-color: #189A46;
-    border-color: #189A46;
+    border-color: rgb(24, 154, 70);
     border-radius: 10px;
     color: #ffffff;
     font-size: 18px;
@@ -84,14 +84,14 @@
     transition: 0.3s ease-in;
 }
 
-.update .update__content .update__item .btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0)
+.update .update__content .update__item input:focus, .update .update__content .update__item button:focus {
+    outline: none;     
+    box-shadow: 0 0 0 .5px rgb(24,151,70);
 }
 
 .update__form .update__item button:hover {
     background-color: #116E32;
-    border-color: #116E32;
+    border: 1px solid #116E32;
 }
 
 @media screen and (min-width: 576px) {
@@ -104,11 +104,7 @@
     .update .container {
         max-width: 720px;
         padding: 1.5rem 15px;
-    }
-    .update .row .col-md-10 {
-        flex: 0 0 83.33%;
-        max-width: 83.33%;
-    } 
+    }  
 }       
 
 @media screen and (min-width: 992px) {
@@ -135,7 +131,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.9px) {
     .update__form .update__item {
         display: flex;
         flex-wrap: wrap;            
