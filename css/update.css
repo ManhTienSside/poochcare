@@ -1,121 +1,185 @@
 .update {
     background-color: black;
+    /* background-color: white; */
+    padding: 3rem 0;
 }
 
 .update .container {
-    max-width: 1140px;
-    padding: 24px 15px;
+    padding: 1rem 15px;
     margin: 0 auto;
 }
 
 .update .row {
-    margin: 24px auto;
-    align-items: center;
-    padding: 0;
-    max-width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem -15px 0 -15px;
 }
 
-.update .title {
+.update .row .col {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.update .row .update__content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.update .update__content .title {
     text-align: center;
 }
 
-.update .title h2 {
+.update__content .title h3 {
     font-size: 2.5rem;
     line-height: 1.2em;
     font-weight: 600;
     text-transform: capitalize;
     color: #dddddd;
+    /* color: #000000; */
+    margin-bottom: 0;
 }
 
-.update .title p {
-    font-size: 1.2em;
+.update__content .title p {
+    font-size: 1.2rem;
     line-height: 28px;
     color: #afafaf;
     text-transform: none;
     margin: 16px 0;
 }
 
-.update .row .update__item:first-of-type {
-    margin-bottom: 48px;
+.update .update__content .update__form {
+    padding-top: 0.5rem;
+    margin-top: 3rem;
 }
 
-.update .row .btn {
+.update__content .update__form .update__item {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+}
+
+.update__form .update__item input {
+    width: 70%;
+    font-size: 16px;
+    color: #afafaf;
     border-radius: 10px;
     height: 60px;
-    padding-top: 8px;   
-}
-
-.update .row .btn:focus{
-    outline: none;
-    box-shadow: 0 0 0 0 rgba(0,123,255,0)
-}
-
-.update .row .form-control {
-    font-size: 16px;
-    height: 60px;
-    background: #fff;
-    padding-left: 20px;
+    background: #ffffff;
     text-align: left;
-    width: 100%;
-    margin-left: 0;
+    padding: 0px 20px;
+    /* border: 1px solid rgba(115, 115, 115, 0.366); */
 }
 
-.update .row button {
-    color: #fff;
+.update__form .update__item button {
+    width: 27%;
     background-color: #189A46;
     border-color: #189A46;
+    border-radius: 10px;
+    color: #ffffff;
     font-size: 18px;
     line-height: 28px;
-    text-transform: capitalize;
     font-weight: 400;
+    text-transform: capitalize;
+    padding: 12px 35px;
     transition: 0.3s ease-in;
-    width: 195px;
-    margin-right: 0;
-
 }
 
-.update .row button:hover {
+.update .update__content .update__item .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0)
+}
+
+.update__form .update__item button:hover {
     background-color: #116E32;
-    border-color: #116E32;       
+    border-color: #116E32;
 }
 
-@media screen and (max-width: 991.9px) {
+@media screen and (min-width: 576px) {
     .update .container {
-        max-width: 960px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .update .row button {
-        width: 100%;
+        max-width: 540px;
     }
 }
 
-@media screen and (max-width: 767.9px) {
+@media screen and (min-width: 768px) {
     .update .container {
         max-width: 720px;
-        margin-right: auto;
-        margin-left: auto;
+        padding: 1.5rem 15px;
+    }
+    .update .row .col-md-10 {
+        flex: 0 0 83.33%;
+        max-width: 83.33%;
+    } 
+}       
+
+@media screen and (min-width: 992px) {
+    .update .container {
+        max-width: 960px;
+        margin: 0 auto;
     }
 
-    .update .row button {
-        width: 30%;
+    .update .row {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .update .row .col-lg-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
     }
 }
 
-@media screen and (max-width: 666.9px) {
-    .update .row button {
-        flex-basis: 100%;
-        display: block;
+@media screen and (max-width: 1080px) {
+    .update__content .title h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .update__form .update__item {
+        display: flex;
+        flex-wrap: wrap;            
+    }
+    .update__form .update__item input{
+        width: 100%;        
+    }
+    .update__form .update__item button{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 667px) {    
+    .update__form .update__item input{
+        width: 100%;        
+    }
+    .update__form .update__item button{
         width: 100%;
         margin-top: 16px;
     }
 }
 
-@media screen and (max-width: 575.9px) {
+@media screen and (max-width: 600px) {    
+    .update__content .title h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }    
+}
+
+@media screen and (max-width: 378px) {    
+    .update__content .title h3 {
+        font-size: 27px;
+        line-height: 32px;
+    }    
+}
+
+@media screen and (min-width: 1200px) {
     .update .container {
-        max-width: 540px;
-        margin-right: auto;
-        margin-left: auto;
+        max-width: 1140px
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .update .container {
+        max-width: 1200px;
     }
 }
