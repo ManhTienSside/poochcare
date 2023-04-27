@@ -69,11 +69,11 @@
 }
 
 .footer__bottom {
-    margin-top: 3rem;
-    /* margin-bottom: 24px; */
+    background-color: #111;
+    margin-top: 3rem;   
     padding: 1rem 0;
     border-top: 1px solid rgba(103, 99, 99, 0.14);
-    text-align: center;
+    text-align: center;    
 }
 
 .footer__bottom a {
@@ -153,4 +153,10 @@
     .footer__contact .footer__top .container {
         max-width: 1200px;        
     }  
+}
+
+.bottom-spacing{
+    background-color: #111111;
+    width: 100vw;
+    height: 1.5rem;
 }

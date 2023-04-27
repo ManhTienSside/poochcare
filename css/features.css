@@ -1,15 +1,7 @@
 .features {
     background-color: #222;
-<<<<<<< HEAD
-}
-.features .container {
-    padding-top: 48px;
-}
-=======
     padding: 3rem 0;
-
 }
->>>>>>> 4dc671a4766d666569909124cef3ee6925eedc3a
 
 .features .row {
     margin: 0 -15px;
