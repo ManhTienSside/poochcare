@@ -19,12 +19,15 @@
     color: #dddddd;
 
 }
+.testimonials__content {
+    padding-bottom: 108px;
+    margin-bottom: 24px;
+}
 .testimonials__item {
     background-color: #151515;
     padding: 40px 30px;
     margin-right: 20px;
     border-radius: 10px;
-    box-shadow:#131313 0px 25px 98px 0px;
 
 }
 .testimonials__item blockquote {
@@ -78,17 +81,41 @@ color: #777;
     text-align: left;
     opacity: 0.8;
 }
-.slick-dots li button:before{
-    
-    color: #dddddd;
-    font-size: 1rem;
+.slick-dots {
+    position: absolute;
+    bottom: 115px;
+    left: 50%;
+    transform: translate(-50%, 100px);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
     
 }
-.slick-dots li button:hover:before{
-    color: #189a46;
-    border-radius: 20px;
+.slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100rem;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    
+}
+.slick-dots li button:hover{
+    width: 30px;
+    height: 10px;
+    background-color: #189a46;
+    border-radius: 15px;
+}
+.slick-dots .slick-active button{
+    width: 30px;
+    height: 10px;
+    background-color: #189a46;
+    border-radius: 15px;
+}
+.slick-dots li button:before {
+    color: transparent;
 }
 .slick-dots li.slick-active button:before {
-    color: #189a46;
-    border-radius: 20px;
+    color: transparent;
 }
