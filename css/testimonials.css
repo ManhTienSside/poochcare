@@ -1,7 +1,6 @@
 .testimonials{
     background-color: #222;
-    text-align: center;
-    margin-right: -20px;
+    text-align: center; 
 }
 .testimonials__title h6{
     font-size: 1.125rem;

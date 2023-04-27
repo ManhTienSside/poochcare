@@ -8,6 +8,11 @@
 .light #poNavbar .nav-item .nav-search{ 
     background-color:rgba(147, 107, 232, 0.05);
 }
+.light #poNavbar .nav-item .nav-search:hover{
+    color:#dddddd;
+    background-color: #189a46;
+    transition: all 0.5s;
+}
 /* aboutus */
 .light .aboutus {
     background-color:#ffffff;
@@ -48,6 +53,17 @@
 .light .features .features__bg>a:hover{
     color: #189a46;
 }
+.light #poNavbar .dropdown-menu{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+.light #poNavbar .dropdown-menu .dropdown-item{
+    color: #000c04;
+}
+.light #poNavbar .dropdown-menu::before {
+    background:#fff;
+}
+
 /* aboutus */
 .light .services {
     background-color:#ffffff;
@@ -108,19 +124,26 @@
 .light .betterpet .title p {
     color: #696969;
 }
-
 .light .update {
     background-color: #ffffff;
 }
-.light .update .title h2 {
+.light .update .title h3 {
     color:#000c04;
 }
 .light .update .title p {
     color: #696969;
 }
-.light .update .row .btn:focus{
-}
-
 .light .bottom-spacing{
     background-color: #ffffff;
+}
+
+@media screen and (max-width:992px) {
+    #poNavbar{
+        background-color: transparent;
+    }
+    #poNavbar .dropdown-menu .dropdown-item:hover{
+        color: #189a46;
+        background-color: transparent;
+    }
+    
 }
