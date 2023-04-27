@@ -2,14 +2,18 @@
     background-color: #189a46;
     color: #ffffff;
     text-align: center;
+    padding: 3rem 0;
 }
 
-.number .poContain{
-    padding: 0 15px;
+.number .container {
+    padding: 1rem 15px;
 }
 
-.number .row{
-    padding-bottom: 1rem;
+.number .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
 }
 
 .number .counter {
@@ -21,9 +25,9 @@
     width: 100%;
 }
 
-.number .number__item p {
-    font-size: 3.125rem;
-    line-height: 3.75rem;
+.number .number__item p:first-child {
+    font-size: 50px;
+    line-height: 60px;
     font-weight: 600;
     color: #fff;
     margin-top: 30px;
@@ -32,9 +36,59 @@
 
 .number .number__item p:last-of-type {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 1.25rem;
-    line-height: 1.25em;
+    font-size: 20px;
+    line-height: 25px;
     text-transform: capitalize;
     margin-top: 10px;
     font-weight: 400;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:992px) {
+    .number .number__item p:first-child {
+        font-size: 40px;
+        line-height: 50px;        
+    }
+    .number .number__item p:last-of-type{
+        font-size: 18px;
+    }   
+}
+
+@media screen and (max-width:737px) {
+    .number .number__item p:first-child {
+        font-size: 35px;
+        line-height: 38px;  
+        margin-top: 20px;      
+    }
+    .number .number__item p:last-of-type{
+        font-size: 17px;
+    }   
+}
+
+@media screen and (min-width:992px) {
+    .number .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }    
+    .number .row {
+        padding-bottom: 1rem;
+    }
+    .number .row .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .number .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .number .container {
+        max-width: 1200px;
+    }
 }

@@ -1,9 +1,15 @@
 .features {
     background-color: #222;
+<<<<<<< HEAD
 }
 .features .container {
     padding-top: 48px;
 }
+=======
+    padding: 3rem 0;
+
+}
+>>>>>>> 4dc671a4766d666569909124cef3ee6925eedc3a
 
 .features .row {
     margin: 0 -15px;
@@ -72,16 +78,36 @@
 }
 
 @media screen and (min-width: 576px){
-    .features .col-sm-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
+    .features .container { 
+        min-width: 540px;        
+    }    
+}
+
+@media screen and (min-width: 768px){
+    .features .container { 
+        min-width: 720px;      
+        padding-top: 1.5rem;
     }    
 }
 
 @media screen and (min-width: 992px){
-    .features .col-lg-4 {
-        flex: 0 0 33.33333%;
-        max-width: 33.33333%;
+    .features .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding-top: 3rem;
+    }    
+}
+
+@media screen and (min-width: 1200px){
+    .features .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (min-width: 1280px){
+    .features .container {
+        max-width: 1200px;
     }    
 }
 

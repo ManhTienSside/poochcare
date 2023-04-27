@@ -7,8 +7,14 @@ header {
     width: 100%;
     z-index: 9999999;
     height: 90px;
+<<<<<<< HEAD
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
     padding-top: 7px;
+=======
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.05);
+    text-align: center;
+    line-height: 24px;
+>>>>>>> 4dc671a4766d666569909124cef3ee6925eedc3a
 }
 .navbar .navbar-brand {
     font-size: 34px;
