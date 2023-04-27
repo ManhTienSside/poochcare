@@ -1,0 +1,121 @@
+.testimonials{
+    background-color: #222;
+    text-align: center;
+    margin-right: -20px;
+}
+.testimonials__title h6{
+    font-size: 1.125rem;
+    letter-spacing: 1;
+    line-height: 36px;
+    color: #f53626;
+    text-transform: uppercase;
+}
+.testimonials__title h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 0 0 48px;
+    text-transform: uppercase;
+    color: #dddddd;
+
+}
+.testimonials__content {
+    padding-bottom: 108px;
+    margin-bottom: 24px;
+}
+.testimonials__item {
+    background-color: #151515;
+    padding: 40px 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+.testimonials__item blockquote {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 24px 24px;
+}
+.testimonials__item q {
+    font-size: 1.2em;
+    line-height: 28px;
+}
+.testimonials__item q::before {
+    font-size: 50px;
+    color: #189a46;
+    line-height: .8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: "Merriweather", serif;
+}
+
+.testitem__bottom {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.item__bottom--image {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background:#151515;
+    border-radius: 50%;
+}
+.item__bottom--text{
+    margin-left: 20px;
+    text-align: left;
+}
+.item__bottom--text h3{
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #dddddd;
+}
+.item__bottom--text {
+color: #777;
+    font-size: 1.0625rem;
+    font-style: normal;
+    margin-bottom: 0;
+    text-align: left;
+    opacity: 0.8;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 115px;
+    left: 50%;
+    transform: translate(-50%, 100px);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+    
+}
+.slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100rem;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    
+}
+.slick-dots li button:hover{
+    width: 30px;
+    height: 10px;
+    background-color: #189a46;
+    border-radius: 15px;
+}
+.slick-dots .slick-active button{
+    width: 30px;
+    height: 10px;
+    background-color: #189a46;
+    border-radius: 15px;
+}
+.slick-dots li button:before {
+    color: transparent;
+}
+.slick-dots li.slick-active button:before {
+    color: transparent;
+}
