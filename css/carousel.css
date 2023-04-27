@@ -1,3 +1,7 @@
+.carosel{
+    margin-top: 90px;
+}
+
 #PcCarousel .carousel-item .carousel__banner::before{
     content: "";
     position: absolute;
@@ -107,11 +111,7 @@
 #PcCarousel .carousel__text .btn:first-of-type{
     background-color: #ffffff;
     color: #189a46;
-<<<<<<< HEAD
-    margin-right: 8px;
-=======
     margin-right: 0.5rem;
->>>>>>> 4dc671a4766d666569909124cef3ee6925eedc3a
 }
 
 #PcCarousel .carousel__text .btn:last-of-type{
