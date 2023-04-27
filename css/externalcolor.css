@@ -8,6 +8,11 @@
 .light #poNavbar .nav-item .nav-search{ 
     background-color:rgba(147, 107, 232, 0.05);
 }
+.light #poNavbar .nav-item .nav-search:hover{
+    color:#dddddd;
+    background-color: #189a46;
+    transition: all 0.5s;
+}
 /* aboutus */
 .light .aboutus {
     background-color:#ffffff;
@@ -119,4 +124,10 @@
     color: #696969;
 }
 .light .update .row .btn:focus{
+}
+@media screen and (max-width:992px) {
+    #poNavbar{
+        background-color: transparent;
+    }
+    
 }

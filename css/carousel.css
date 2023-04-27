@@ -12,7 +12,7 @@
 
 #PcCarousel .carousel-item .carousel__banner{    
     background-size: cover;   
-    min-height: calc(100vh - 90px);
+    min-height: 100vh;
     position: relative;
     z-index: 1;
     display: grid;
@@ -107,11 +107,7 @@
 #PcCarousel .carousel__text .btn:first-of-type{
     background-color: #ffffff;
     color: #189a46;
-<<<<<<< HEAD
-    margin-right: 8px;
-=======
     margin-right: 0.5rem;
->>>>>>> 4dc671a4766d666569909124cef3ee6925eedc3a
 }
 
 #PcCarousel .carousel__text .btn:last-of-type{
