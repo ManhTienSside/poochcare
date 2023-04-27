@@ -1,18 +1,15 @@
 .features {
     background-color: #222;
     padding: 3rem 0;
-
 }
 
 .features .row {
     margin: 0 -15px;
 }
-
 .features .row .features__grid {
     padding: 0 15px;
     margin-bottom: 30px;
 }
-
 .features .features__bg {
     padding: 40px 30px;
     background-color: #151515;

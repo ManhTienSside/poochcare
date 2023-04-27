@@ -44,59 +44,58 @@
     <!-- link style -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-
-  <body>
+  <body class="light">
     <header>
-      <nav class="container navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Pooch Care</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarPoochCare"
-          aria-controls="navbarPoochCare"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarPoochCare">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#"> Pages </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-          <ul class="search__item">
-            <li class="nav-item">
-              <a class="search" href="#">
-                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-              </a>
-            </li>
-          </ul>
-          <div class="darknight">
-            <a href="#">
-              <i class="fa-sharp fa-regular fa-sun-bright"></i>
-            </a>
+      <div class="container-xl">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">Pooch Care</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#poNavbar"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onclick="hide()"
+          >
+            <i class="fa-solid fa-bars"></i>
+            <!-- <i class="fa-sharp fa-solid fa-xmark"></i> -->
+          </button>
+          <div class="collapse navbar-collapse" id="poNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-search"
+                  ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+            </ul>
           </div>
-        </div>
-      </nav>
+          <button id="switchButton" title="Click to switch theme">
+            <i class="far fa-moon"></i>
+          </button>
+        </nav>
+      </div>
     </header>
     <section class="carosel">
       <div id="PcCarousel" class="carousel slide" data-ride="carousel">
@@ -158,8 +157,8 @@
         </div>
       </div>
     </section>
-    <section class="aboutus">
-      <div class="container pd__section">
+    <section class="aboutus pd__section">
+      <div class="container">
         <div class="aboutus__tittle">
           <h6>ABOUT US</h6>
           <h3>
@@ -261,8 +260,8 @@
         </div>
       </div>
     </section>
-    <section class="services">
-      <div class="container pd__section">
+    <section class="services pd__section">
+      <div class="container">
         <div class="services__content">
           <div class="services__left">
             <img class="img-fluid" src="./images/ab.jpg" alt="services" />
@@ -288,8 +287,8 @@
       </div>
     </section>
     <section class="number">
-      <div class="container">
-        <div class="row">
+      <div class="container pd__section">
+        <div class="row d-flex justify-content-center">
           <div class="col-6 col-lg-3">
             <div class="number__item">
               <p class="counter">730</p>
@@ -317,7 +316,77 @@
         </div>
       </div>
     </section>
-    <section class="ourplans"></section>
+    <section class="ourplans">
+      <div class="container">
+        <div class="title">
+          <h6>Our Plans</h6>
+          <h3>Affordable Packages</h3>
+        </div>
+        <div class="ourplans__package row">
+          <div class="ourplans__item col-12 col-lg-4">
+            <div class="ourplans__bg">
+              <div class="ourplans__header">
+                <h6>Free Package</h6>
+                <h4><span>$</span>0<span>/month</span></h4>
+              </div>
+              <div class="ourplans__footer">
+                <ul>
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+                <div class="btnbuy">
+                  <a href="#url" class="btn">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ourplans__item col-12 col-lg-4">
+            <div class="ourplans__bg">
+              <div class="ourplans__header">
+                <h5>SAVE 10%</h5>
+                <h6>Standard Package</h6>
+                <h4><span>$</span>39<span>/month</span></h4>
+              </div>
+              <div class="ourplans__footer">
+                <ul>
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+                <div class="btnbuy">
+                  <a href="#url" class="btn">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ourplans__item col-12 col-lg-4">
+            <div class="ourplans__bg">
+              <div class="ourplans__header">
+                <h6>Pro Package</h6>
+                <h4><span>$</span>89<span>/month</span></h4>
+              </div>
+              <div class="ourplans__footer">
+                <ul>
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+                <div class="btnbuy">
+                  <a href="#url" class="btn">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="betterpet">
       <div class="container">
         <div class="betterpet__content">
@@ -624,5 +693,14 @@
     <!-- BACK TO TOP -->
     <script src="./js/Back-To-Top/util.js"></script>
     <script src="./js/Back-To-Top/main.js"></script>
+    <script>
+      const body = document.body;
+      const switch_mode = document.querySelector("#switchButton i");
+      switch_mode.onclick = function () {
+        body.classList.toggle("light");
+        switch_mode.classList.toggle("fa-moon");
+        switch_mode.classList.toggle("fa-sun");
+      };
+    </script>
   </body>
 </html>
