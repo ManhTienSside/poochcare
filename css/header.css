@@ -1,42 +1,134 @@
 header {
     background-color: #151515;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999999;
     height: 90px;
+<<<<<<< HEAD
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+    padding-top: 7px;
+=======
     box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.05);
     text-align: center;
     line-height: 24px;
+>>>>>>> 4dc671a4766d666569909124cef3ee6925eedc3a
 }
-
-header .navbar-brand {
-    display: block;
-    font-size: 2.125rem;
-    color: #189a46;
+.navbar .navbar-brand {
+    font-size: 34px;
     font-weight: 600;
-    line-height: 1.5;
+    text-transform: capitalize;
+    color: #189a46;
+    text-decoration: none;
 }
-
-#navbarPoochCare .nav-item {
+#poNavbar .nav-item{
+    list-style: none;
     padding: 0 12px;
+    cursor: pointer;
 }
-
-#navbarPoochCare .nav-item .nav-link {
-    display: block;
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #fff;
+.nav-item .nav-link {
+    text-decoration: none;
+    color: #dddddd;
+    text-transform: capitalize;
     padding: 14px 0;
-    line-height: 28.8px;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    transition: all .5s;
 }
-
-
-
-#navbarPoochCare .nav-item .search {
-    font-size: 1rem;
+#poNavbar .nav-item .nav-search{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    border-radius: 50%;
-    display: inline-block;
-    backdrop-filter: blur(10px);
-    text-decoration: none;
+    border-radius: 45px;
+    font-size: 16px;
+    background-color: #222;
     color: #189a46;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+#poNavbar .nav-item .nav-search:hover{
+    color:#dddddd;
+    background-color: #189a46;
+    transition: all 0.5s;
+}
+#poNavbar .nav-item .dropdown{
+    padding-right: 20px;
+}
+#poNavbar .nav-link::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #189a46;
+    bottom: 13px;
+    transition: all .5s;
+}
+#poNavbar .nav-link:hover::before {
+    width: 100%;
+}
+#poNavbar .nav-link:hover{
+    color: #189a46;
+}
+#poNavbar .active .nav-link{
+    color: #189a46;
+}
+#switchButton {
+    height: 24px;
+    width: 24px;
+    border-radius: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* dark Theme*/
+#switchButton i {
+    display: block;
+    padding: 3px 0;
+    color: #404040;
+    font-size: 24px;
+    
+}
+
+/* light Theme*/
+/* .light #switchButton .fa-moon {
+    display: block;
+}
+.light #switchButton .fa-sun {
+    display: none;
+} */
+
+
+@media screen and (max-width:992px) {
+    header{
+        height: auto;
+        padding: 15px 0;
+    }
+    header .navbar-toggler {
+        background-color: #189a46;
+        color: #dddddd;
+    }
+    #poNavbar{
+        background-color: #151515;
+    }
+    #poNavbar .nav-link::before {
+        display: none;
+    }
+    #poNavbar .nav-item .nav-search{
+        text-align: center;
+    }
+    #switchButton{
+        position: absolute;
+        right: 80px;
+        top: 22px;
+    }
+
 }
