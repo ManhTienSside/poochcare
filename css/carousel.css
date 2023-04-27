@@ -1,3 +1,7 @@
+.carosel{
+    margin-top: 90px;
+}
+
 #PcCarousel .carousel-item .carousel__banner::before{
     content: "";
     position: absolute;
