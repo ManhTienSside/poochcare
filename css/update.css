@@ -1,6 +1,5 @@
-.update {
-    /* background-color: black; */
-    background-color: white;
+.update {    
+    background-color: #151515;
     padding: 3rem 0;
 }
 
@@ -35,7 +34,7 @@
     font-weight: 600;
     text-transform: capitalize;
     /* color: #dddddd; */
-    color: #000000;
+    color: #dddddd;
     margin-bottom: 0;
 }
 
