@@ -23,6 +23,7 @@
     line-height: 48px;
     text-transform: capitalize;
     color: #dddddd;
+    white-space: wrap; 
 }
 
 .aboutus__tittle p {
@@ -47,4 +48,18 @@
 
 .aboutus__tittle a:hover {
     color: #189a46;
+}
+@media screen and (min-width:600px) and (max-width:1080px) {
+    .aboutus__tittle h3 {
+        font-size: 35px;
+        line-height: 40px;
+        
+    }
+}
+@media screen and (max-width:599.8px) {
+    .aboutus__tittle h3 {
+        font-size: 32px;
+        line-height: 38px;
+        
+    }
 }

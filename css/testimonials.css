@@ -118,3 +118,11 @@ color: #777;
 .slick-dots li.slick-active button:before {
     color: transparent;
 }
+@media screen and (max-width:667px) {
+    .slick-dots{
+        display: none !important; 
+    }
+    .testimonials__content{
+        padding: 0;
+    }
+}

@@ -10,6 +10,15 @@ $(".testimonials__content").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 667,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots:false,
       }
     }
 
