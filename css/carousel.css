@@ -16,7 +16,7 @@
 
 #PcCarousel .carousel-item .carousel__banner{    
     background-size: cover;   
-    min-height: 100vh;
+    min-height: calc(100vh - 90px);
     position: relative;
     z-index: 1;
     display: grid;
