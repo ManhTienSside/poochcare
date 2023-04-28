@@ -51,7 +51,7 @@
 .light .features .features__bg h4>a:hover {
     color: #189a46;
 }
-.light .features .features__bg {
+.light .features .features__bg p{
     color: #696969;
 }
 .light .features .features__bg>a {
@@ -122,6 +122,7 @@
 .light .item__bottom--text h3 {
     color:#000c04;
 }
+
 /* betterpet */
 .light .betterpet{
     background-color: #ffffff;

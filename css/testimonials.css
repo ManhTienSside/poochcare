@@ -30,6 +30,7 @@
 
 }
 .testimonials__item blockquote {
+    color: #696969;
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
@@ -62,10 +63,7 @@
     background:#151515;
     border-radius: 50%;
 }
-.item__bottom--text{
-    margin-left: 20px;
-    text-align: left;
-}
+
 .item__bottom--text h3{
     margin: 0;
     font-weight: 600;
@@ -73,12 +71,13 @@
     color: #dddddd;
 }
 .item__bottom--text {
-color: #777;
+    color: #696969;
     font-size: 1.0625rem;
     font-style: normal;
     margin-bottom: 0;
     text-align: left;
     opacity: 0.8;
+    margin-left: 20px;
 }
 .slick-dots {
     position: absolute;
