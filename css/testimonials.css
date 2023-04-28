@@ -126,3 +126,15 @@ color: #777;
         padding: 0;
     }
 }
+@media screen and (min-width:600px) and (max-width:1080px) {
+    .testimonials__title h3{
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width:599.8px){
+    .testimonials__title h3{
+    font-size: 32px;
+    line-height: 38px;
+    }
+}

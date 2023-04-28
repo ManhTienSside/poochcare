@@ -157,3 +157,15 @@
 .ourplans .ourplans__item:nth-of-type(2) .ourplans__footer .btn:focus{
     box-shadow: 0 0 0 0.2rem rgba(15, 162, 67, 0.65);
 }
+@media screen and (min-width:600px) and (max-width:1080px) {
+    .ourplans .title h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width:599.8px){
+    .ourplans .title h3 {
+    font-size: 32px;
+    line-height: 38px;
+    }
+}
