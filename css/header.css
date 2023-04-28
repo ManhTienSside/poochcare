@@ -194,3 +194,16 @@ header {
         display: none;
     }
 }
+@media screen and (max-width:480px) { 
+    .navbar .navbar-brand {
+        font-size: 30px;
+    }
+    header .container {
+        padding: 0;
+    }
+    #switchButton{
+        position: absolute;
+        right: 75px;
+        top: 10px;
+    }
+}
