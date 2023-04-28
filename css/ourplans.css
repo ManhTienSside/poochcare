@@ -54,7 +54,7 @@
 }
 
 .ourplans .ourplans__item .ourplans__header h6{
-    color: #ddd;
+    color: #ffffff;
 }
 
 .ourplans .ourplans__item .ourplans__header h4{
@@ -162,5 +162,11 @@
     .ourplans .title h3 {
     font-size: 32px;
     line-height: 38px;
+    }
+}
+@media screen and (max-width:375px) {
+    .ourplans .ourplans__footer .btn {
+        padding: 12px 30px;
+        font-size: 1rem;
     }
 }

@@ -81,7 +81,7 @@
     opacity: 0.9;
 }
 
-.btt .backtotop{
+.backtotop{
     width: 48px;
     height: 48px;
     background: #189a46;
@@ -101,16 +101,20 @@
     cursor: pointer;
     transform: translateY();   
     transition: .3s ease-out;  
-    z-index: 0;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
 }
 
-.btt:hover .backtotop{
+.backtotop:hover{
+    color: #fff;
     transform: translateY(-5px);
 }
 
 
 .cd-top--is-visible {
     opacity: 1;
+    visibility: visible;
 }
 
 @media screen and (min-width:576px) {

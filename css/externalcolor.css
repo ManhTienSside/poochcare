@@ -101,13 +101,14 @@
     color:#000c04;
 }
 .light  .ourplans .ourplans__item:nth-of-type(2) .ourplans__header h6{ 
-    color: #ddd;
+    color: #ffffff;
 }
 .light  .ourplans__footer ul li{
     color: #696969;
 }
+
 .light  .testimonials {
-    background-color:rgba(147, 107, 232, 0.05);
+    background-color:#936be80d;
 }
 .light .testimonials__title h3{
     color:#000c04;
