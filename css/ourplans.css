@@ -149,11 +149,6 @@
     padding: 32px 40px 56px;
 }
 
-.ourplans .ourplans__item:nth-of-type(2) .ourplans__footer .btn:hover{
-    background-color: #189a46;
-    border-color: #189a46;   
-}
-
 .ourplans .ourplans__item:nth-of-type(2) .ourplans__footer .btn:focus{
     box-shadow: 0 0 0 0.2rem rgba(15, 162, 67, 0.65);
 }

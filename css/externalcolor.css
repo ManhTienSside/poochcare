@@ -16,6 +16,10 @@
     background-color: #189a46;
     transition: all 0.5s;
 }
+.light #poNavbar .dropdown-menu .dropdown-item:hover{
+    color: #189a46;
+    background-color: transparent;
+}
 /* aboutus */
 .light .aboutus {
     background-color:#ffffff;

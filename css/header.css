@@ -171,7 +171,8 @@ header {
         display: none;
     }
     #poNavbar .nav-item .nav-search{
-        text-align: center;
+        float: left;
+        margin: 20px 0;
     }
     #switchButton{
         position: absolute;
